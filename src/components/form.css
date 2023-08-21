@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: #f6f4eb;
+  padding: 10px 10px 10px 20px;
+}
+
+.container {
+  width: 800px;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  position: relative;
+  padding: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100%;
+}
+
+input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  border-bottom: 2px solid black;
+  width: 80%;
+  padding: 5px;
+}
+input:focus {
+  background-color: linen;
+}
+
+.buttons {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+
+button {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  width: 150px;
+  height: 35px;
+  border-radius: 8px !important;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #2979FF;
+  color: #fff;
+}
+th {
+  margin-left: 10px;
+}
+.btn {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #91c8e4 !important;
+  /* color: #fff !important ; */
+  padding: 5px;
+  margin: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+table {
+  display: relative;
+  width: 750px;
+  height: 100%;
+  margin-top: 20px;
+  padding: auto;
+}
+span {
+  font-size: 16px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+label {
+  font-size: 16px;
+  width: 100%;
+}
+
+/* .errors{
+    font-size: 16px;
+    width: 250px;
+    height: 450px;
+    align-items: center;
+    text-align: center;
+    color: red;
+    margin-left: 650px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+} */
+
+input:invalid[focused="true"] {
+  border-bottom: 2px solid red;
+  background-color: #fff9c4;
+}
+
+.tables {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}

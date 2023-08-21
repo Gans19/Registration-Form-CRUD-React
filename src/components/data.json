@@ -1,0 +1,27 @@
+{
+ "users": [  {
+        "name": "John Smith",
+        "age": 30,
+        "gender": "male",
+        "city": "New York",
+        "country": "USA",
+        "dept" : "civil Protection"
+    },
+    {
+        "name": "Smith",
+        "age": 30,
+        "gender": "male",
+        "city": "New York",
+        "country": "USA",
+        "dept" : "AERO Protection"
+    },
+    {
+        "name": "John",
+        "age": 30,
+        "gender": "male",
+        "city": "New York",
+        "country": "USA",
+        "dept" : "MECH Protection"
+    },
+]
+}
